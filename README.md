@@ -16,8 +16,6 @@
 	    oQuery.Open;
 
 	    Result := oQuery.RecordCount;
-	    ConnIndex := ConnectionPool.ConnIndex;
-	    ConnCount := ConnectionPool.Count;
 	  finally
 	    oQuery.Free;
 	  end;
