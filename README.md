@@ -1,4 +1,6 @@
-   
+	You can use this unit like this.
+ 
+ 	uses ConnectionPoolUnit;   
 
     var
 	  oQuery: TADOQuery;
